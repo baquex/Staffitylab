@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.candidate-banner {
+	position: relative;
+}
+
+#candidate-banner-img{
+  min-width: 100%;
+}
+
+#candidate-message {
+	position: absolute;
+	top: 30%;
+	right: 5%;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(8, 58, 98);
+}
+
+#candidate-message h2 {
+	font-size: 48px;
+	color: rgb(10, 80, 112);
+}
+
+#candidate-message a {
+  color: rgb(10, 80, 112);
+	display: block;
+	width: 90px;
+  height: 40px;
+  text-align: center;
+	text-decoration: none;
+	padding: 7px;
+	border: 3px solid rgb(10, 80, 112);
+	margin:auto;
+	margin-top:1rem;
+}
+
+#candidate-message a:hover {
+	background: rgba(0, 32, 83, 0.5);
+	color: #FFF;
+}
+
+#candidate-message p {
+	font-size: 18px;
+	margin:auto;
+	text-align: center;
+	margin-top:1rem;
+}
+#joblisting-section li {
+	padding-left: 1rem;
+}
+
+.cardlink{
+	float: right;
+}
+
+/*
+@media (min-width: 480px) {
+	#banner h2 {
+		font-size: 40px;
+	}
+
+	#banner a {
+		margin-top: 25px;
+	}
+}*/
+
+/*768px is usual tablet size
+@media (min-width: 615px) {
+	#banner {
+		height: 300px;
+		overflow: hidden;
+	}
+}*/

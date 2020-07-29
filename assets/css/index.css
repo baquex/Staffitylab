@@ -1,0 +1,8 @@
+@import './partials/_header.css';
+@import './partials/_services.css';
+@import './partials/_banner.css';
+@import './partials/_candidate.css';
+
+html {
+  scroll-behavior: smooth;
+}

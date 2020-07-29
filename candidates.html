@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/index.css">
+
+
+  <title>StaffityLab Recruiting Services</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white navColor">
+    <div class="container my-3 p-2">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/logo_crop.png" class="navbar-brand-img logo" alt="StaffityLab">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav ml-auto menu-right">
+            <li class="nav-item mx-3"><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item mx-3"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item mx-3"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item mx-3"><a class="nav-link" href="./candidates.html">For Candidates</a></li>
+          </ul>
+          <ul class="nav navbar-nav ml-auto menu-right">
+            <li><a class="navbar-btn btn btn-sm btn-success" href="#">Contact</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="container">
+    <div class="row d-flex align-items-center candidate-banner">
+      <!-- IMAGE BELOW -->
+      <div class="col-12 d-flex align-items-center">
+        <img id="candidate-banner-img" class="m-auto" src="./assets/img/candidate-portada-2.jpg" alt="working" />
+      </div>
+      <div id="candidate-message">
+        <h2>Are you seeking career growth?</h2>
+        <p>Check out the options we have for you below</p>
+        <a href="#candidate-options-cards">View</a>
+      </div> 
+    </div>
+  </header>
+  <main class="container-fluid">
+    <!-- Candidates -->
+   
+    <section id="candidate-options-cards" class="container p-5">
+      <div class="row d-flex justify-content-around">
+
+        <div class="col-12 col-md-5 col-lg-5 mt-3">
+          <div class="card unaCard">
+            <div class="card-body">
+              <h3 class="card-title">Searh Jobs</h3>
+              <p class="card-text">Look through out job listings, you never know what you may find!</p>
+              <a href="#" class="card-link cardlink">Start Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5 col-lg-5 mt-3">
+          <div class="card unaCard">
+            <div class="card-body">
+              <h3 class="card-title">Join our candidate pool</h3>
+              <p class="card-text">Be the first option for new opening that fit your profile and land the best opportunities in the market! </p>
+              <a href="#" class="card-link cardlink">Join</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="joblisting-section" class="container mt-5 p-3">
+      <hr />
+      <div class="row">
+        <div class="col-6 d-flex justify-content-around">
+          <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Skill
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">JavaScript</a></li>
+              <li><a href="#">Java</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 d-flex justify-content-around">
+          <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Location
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Chicago</a></li>
+              <li><a href="#">New York</a></li>
+              <li><a href="#">San Francisco</a></li>
+              <li><a href="#">Los Angeles</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+
+  </main>
+  <footer style="height: 300px;">
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+  
+  <script src="./assets/js/contact_form.js"></script>
+</body>
+</html>
